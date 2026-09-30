@@ -1,0 +1,19 @@
+{
+  "name": "balangandan",
+  "owner": {
+    "name": "Balangandan",
+    "url": "https://balangandan.com.br"
+  },
+  "metadata": {
+    "description": "Plugin oficial do Balangandan: MCP remoto com OAuth e a skill de uso."
+  },
+  "plugins": [
+    {
+      "name": "balangandan",
+      "source": "./",
+      "description": "Conecta sua conta Balangandan via MCP (OAuth) para consultar modelos, créditos, projetos e histórico e gerar imagens, vídeos e áudio.",
+      "category": "productivity",
+      "homepage": "https://balangandan.com.br"
+    }
+  ]
+}

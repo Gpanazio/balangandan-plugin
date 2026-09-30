@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "balangandan": {
+      "serverUrl": "https://balangandan.com.br/api/mcp"
+    }
+  }
+}

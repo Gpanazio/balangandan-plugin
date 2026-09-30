@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "balangandan",
+  "version": "0.1.0",
+  "description": "Conecta sua conta Balangandan via MCP (OAuth) para consultar modelos, créditos, projetos e histórico e gerar imagens, vídeos e áudio.",
+  "author": {
+    "name": "Balangandan",
+    "url": "https://balangandan.com.br"
+  },
+  "homepage": "https://balangandan.com.br",
+  "repository": "https://github.com/Gpanazio/balangandan-plugin",
+  "license": "MIT",
+  "keywords": ["balangandan", "mcp", "image-generation", "video-generation", "audio-generation"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Balangandan",
+        "shortDescription": "Gere imagens, vídeos e áudio com sua conta Balangandan",
+        "longDescription": "Conecta o Codex ao MCP remoto do Balangandan com OAuth. Consulte modelos, créditos, projetos e histórico, cote antes de gerar e recupere os arquivos duráveis.",
+        "developerName": "Balangandan",
+        "category": "Design",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://balangandan.com.br",
+        "defaultPrompt": [
+          "Mostre meus créditos e projetos no Balangandan",
+          "Gere uma imagem no Balangandan dentro do meu orçamento"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "balangandan": {
+      "type": "streamable-http",
+      "url": "https://balangandan.com.br/api/mcp"
+    }
+  }
+}
