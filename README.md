@@ -38,8 +38,7 @@ e `codex mcp login balangandan`.
 **Antigravity**
 
 ```sh
-git clone https://github.com/Gpanazio/balangandan-plugin
-agy plugin install ./balangandan-plugin
+agy plugin install https://github.com/Gpanazio/balangandan-plugin
 ```
 
 **Cursor / VS Code** — adicione um servidor MCP HTTP com a URL
