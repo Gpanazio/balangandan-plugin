@@ -8,7 +8,7 @@
     "url": "https://balangandan.com.br"
   },
   "homepage": "https://balangandan.com.br",
-  "repository": "https://github.com/Gpanazio/balangandan-plugin",
+  "repository": "https://github.com/balangandan/balangandan-plugin",
   "license": "MIT",
   "keywords": ["balangandan", "mcp", "image-generation", "video-generation", "audio-generation"],
   "extensions": {

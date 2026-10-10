@@ -14,21 +14,21 @@ by itself; you authorize (and revoke) it on the website.
 **Claude Code**
 
 ```text
-/plugin marketplace add Gpanazio/balangandan-plugin
+/plugin marketplace add balangandan/balangandan-plugin
 /plugin install balangandan@balangandan
 ```
 
-Claude Code 2.1.275+: `/plugin install balangandan --marketplace Gpanazio/balangandan-plugin`.
+Claude Code 2.1.275+: `/plugin install balangandan --marketplace balangandan/balangandan-plugin`.
 Depois abra `/mcp`, selecione `plugin:balangandan:balangandan` e autentique.
 
 **Claude (claude.ai / Desktop)** — Customize → Plugins → Add → Add marketplace →
-`Gpanazio/balangandan-plugin`; adicione o plugin e conecte o conector na aba
+`balangandan/balangandan-plugin`; adicione o plugin e conecte o conector na aba
 **Connectors**.
 
 **Codex**
 
 ```sh
-codex plugin marketplace add Gpanazio/balangandan-plugin
+codex plugin marketplace add balangandan/balangandan-plugin
 codex plugin add balangandan@balangandan
 ```
 
@@ -38,7 +38,7 @@ e `codex mcp login balangandan`.
 **Antigravity**
 
 ```sh
-agy plugin install https://github.com/Gpanazio/balangandan-plugin
+agy plugin install https://github.com/balangandan/balangandan-plugin
 ```
 
 **Cursor / VS Code** — adicione um servidor MCP HTTP com a URL
